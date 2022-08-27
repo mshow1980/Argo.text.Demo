@@ -7,21 +7,21 @@ pipeline {
         stage ('Build') {
 
             steps {
-                echo 'Building the building application'
+                echo 'Building the building  for Application'
             }
         } 
 
         stage ('test') {
 
             steps {
-                echo 'testing the testing application'
+                echo 'testing the testing for Application'
             }
         }
 
         stage ('deploy') {
 
             steps {
-                echo 'Deploying the Deploying application'
+                echo 'Deploying the Deploying Application'
             }
         }
     }
